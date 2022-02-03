@@ -9,9 +9,9 @@ def uploadAndGetUrl(imgName):
     # 配置属性
     config = {
         # 本地项目路径
-        'local_path': 'C:/Users/86157/Desktop/small_term/order_sys/img/'+imgName,
+        'local_path': '****'+imgName,
         # 服务器项目路径
-        'ssh_path': '/usr/java/apache-tomcat-8.5.69/webapps/img/'+imgName,
+        'ssh_path': '****'+imgName,
         # 项目名
         'project_name': '',
         # 忽视列表
@@ -19,8 +19,8 @@ def uploadAndGetUrl(imgName):
         # ssh地址、端口、用户名、密码
         'hostname': '139.196.191.74',
         'port': 22,
-        'username': 'root',
-        'password': '20010829Cr7!',
+        'username': '****',
+        'password': '****',
         # 是否强制更新
         'mandatory_update': False,
         # 更新完成后是否重启tomcat
